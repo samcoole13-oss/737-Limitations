@@ -1,0 +1,57 @@
+Runway slope limits,+/-2%,+/-3%,+/-1%,+/-2.5%
+Max takeoff / landing tailwind component,10kts (May be 15kts as customer option),8kts (May be 15kts as customer option),12kts (May be 15kts as customer option),5kts (May be 15kts as customer option)
+Max windspeed for taxing,65kts,55kts,70kts,50kts
+Turbulent airspeed,280kts/.76M,270kts/.74M,300kts/.78M,260kts/.72M
+Max operating altitude,"41,000ft","39,000ft","43,000ft","38,000ft"
+Maximum Takeoff and Landing Altitude,"8,400ft (12,000ft high altitude option)","9,000ft (12,000ft high altitude option)","7,500ft (12,000ft high altitude option)","10,000ft (12,000ft high altitude option)"
+Max precipitation depth for takeoff or landing,"Dry snow 60mm. Water, wet snow, slush 13mm. (AFM=15mm)","Dry snow 40mm. Water, wet snow, slush 10mm. (AFM=15mm)","Dry snow 70mm. Water, wet snow, slush 10mm. (AFM=15mm)","Dry snow 70mm. Water, wet snow, slush 13mm. (AFM=15mm)"
+Max demonstrated crosswind,36kts,33kts,38kts,30kts
+Flight Manoeuvring Load Acceleration Limits (AFM) Flaps up,+2.5g to -1.0g,+2.0g to -0.5g,+3.0g to -1.5g,+2.2g to -0.8g
+Flight Manoeuvring Load Acceleration Limits (AFM) Flaps down,+2.0g to 0.0g,+1.5g to -0.5g,+2.5g to +0.5g,+1.8g to -0.2g
+The maximum allowable in-flight difference between Captain and First Officer altitude displays for RVSM operations,200ft,100ft,250ft,150ft
+Max cabin differential pressure (relief valves),9.1 psi,8.5 psi,9.5 psi,8.35 psi
+Max cabin diff for takeoff & landing,0.125 psi ,0.2 psi,0.1 psi,0.3 psi
+One pack may be inoperative provided maximum altitude is limited to,FL250,FL240,FL200,FL260
+"Engine anti-ice must be on during all ground and flight operations when icing conditions exist or are anticipated, except during climb and cruise below ",-40°C SAT,-30°C SAT,-20°C SAT,-50°C SAT
+Do not use wing anti-ice on the ground when the OAT is above ,10°C,5°C,15°C,0°C
+Airstairs Max windspeed for operation,40kts,35kts,50kts,30kts
+Airstairs May remain extended in winds up to,60kts,50kts,70kts,55kts
+APU max EGT,760°C,780°C,720°C,800°C
+APU Max continuous EGT,710°C,690°C,730°C,750°C
+Max alt using bleed and electrics,"10,000ft","41,000ft","20,000ft","10,000ft"
+Max alt using bleed only,"17,000ft","41,000ft","20,000ft","10,000ft"
+Max alt using electrics only,"41,000ft","10,000ft","17,000ft","20,000ft"
+TR voltage range,24-30 V,26-32 V,20-28 V,22-26 V
+Battery voltage range,22-30 V (May be up to 33V during pulse mode charging),24-32 V (May be up to 33V during pulse mode charging),20-28 V (May be up to 33V during pulse mode charging),25-33 V (May be up to 33V during pulse mode charging)
+Max engine gen drive oil temp,157°C,152°C,167°C,142°C
+Max engine gen drive rise,20°C,15°C,25°C,30°C
+Max flap extend altitude: ,"20,000ft","13,000ft","25,000ft","35,000ft"
+Do not deploy the speedbrakes in flight at radio altitudes less than ,"1,000ft.",800ft,"1,200ft",600ft
+Alternate flap duty cycle 0 - 15,5 mins off,3 mins off,7 mins off,10 mins off
+Alternate flap duty cycle 15 - 40,25 mins off,20 mins off,30 mins off,35 mins off
+Fuel Max temp,+49°C,+43°C,+55°C,+40°C
+Fuel Min temp,-43°C or freeze pt +3°C,-49°C or freeze pt +3°C,-50°C or freeze pt +3°C,-35°C or freeze pt +3°C
+Max lateral imbalance,453kg,953kg,449kg,400kg
+Main tanks must be full if centre contains over ,453kg,953kg,449kg,400kg
+"For ground operation, centre tank pumps must be not be positioned to ON, unless defuelling or transferring fuel, if quantity is below ",453kg,953kg,449kg,400kg
+Min hydraulic rqd for despatch,88%,85%,90%,80%
+Minimum fuel required in respective tank for hydraulic pump operation.,760kg,700kg,850kg,600kg
+"Max speed, gear extension",270kt/0.82,260kt/0.80,280kt/0.84,250kt/0.78
+"Max speed, gear retraction",235kt,220kt,250kt,210kt
+"Max speed, gear extended",320kt/0.82,300kt/0.80,330kt/0.85,310kt/0.78
+Pneumatics Max external air pressure,60 psig,50 psig,70 psig,55 psig
+Pneumatics Max external air temp,232°C,249°C,250°C,200°C
+Max N1,104%,102%,106%,100%
+Max N2,105%,103%,107%,110%
+Max EGT Takeoff,950°C,930°C,970°C,900°C
+Max EGT Cont,925°C,900°C,950°C,880°C
+Max EGT Start,725°C,700°C,750°C,680°C
+Oil max temp,155°C,150°C,160°C,145°C
+Oil max temp 15 mins,140-155°C,130-150°C,150-165°C,135-145°C
+Oil temp Max continuous,140°C,135°C,150°C,130°C
+Min oil press,13psi (warning light)/ 26psi (gauge),15psi (warning light)/ 30psi (gauge),20psi (warning light)/ 40psi (gauge),10psi (warning light)/ 22psi (gauge)
+Min oil qty (at despatch),3.0 US Gal or 75% full,2.5 US Gal or 70% full,3.5 US Gal or 80% full,2.0 US Gal or 70% full
+Dry snow max depth,60mm,50mm,70mm,45mm
+Wet snow max depth,13mm,10mm,18mm,20mm
+Compacted snow/slush max depth,13mm,10mm,18mm,25mm
+Standing water max depth,13mm,10mm,20mm,15mm
