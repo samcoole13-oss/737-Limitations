@@ -1,0 +1,31 @@
+Turbulent airspeed,280kts/.76M,270kts/.74M,300kts/.78M,260kts/.72M
+Reduce crosswind limitations by x knot(s) per meter (to a maximum of y kts) when the runway width is less than z m,"1kt, 10kts, 40m","2kts, 20kts, 20m","0.5kt, 10kts, 30m","1kt, 15kts, 30m"
+"For landing, reduce crosswind limitations by x kts on a wet or contaminated runway whenever asymmetric thrust revere is used",5,10,15,20
+"For manual landings, sideslip only (zero crab) landings are not permitted with a crosswind component in excess of x kts",15,20,10,12
+"Max TO X-wind, Dry, Blended winglets",34,33,37,40
+"Max TO X-wind, Dry, Split Scimitar",33,34,37,40
+"Max LDG X-wind, Split Scimitar",37,40,34,33
+"Max LDG X-wind, Non Split Scimitar",40,37,34,33
+"Max TO X-wind, Wet",25-33kts,33-34kts,25-37kts,25-34kts
+Max tailwind,15kts,10kts,12kts,13kts
+The minimum use height (MUH) for single channel autopilot operation is x ft AGL,158,400,162,232
+Do not use LVL CHG on final approach below,1000ft AFE,1200ft AFE,400ft AFE,500ft AFE
+Max & min GS angles for autoland (degrees),2.5 - 3.25,2.25 - 3.5,2.75 - 3.25,3 - 3.5
+Autoland with OEI only if:,"Flaps 30, DH>50ft","Flaps 40, DH>50ft","Flaps 30, DH>200ft","Flaps 40, DH>200ft"
+Autoland max headwind,25kts,20kts,12kts,15kts
+Autoland X-wind (fail passive),20kts,25kts,12kts,15kts
+Autoland X-wind (fail operational),25kts,20kts,12kts,15kts
+Autoland max tailwind F30,12kts,15kts,10kts,13kts
+Autoland max tailwind F40,15kts,12kts,10kts,13kts
+APU Max alt using bleed and electrics,"10,000ft","41,000ft","20,000ft","17,000ft"
+APU Max alt using bleed only,"17,000ft","41,000ft","20,000ft","10,000ft"
+APU Max alt using electrics only,"41,000ft","10,000ft","17,000ft","20,000ft"
+Max flap altitude: ,"20,000ft","13,000ft","25,000ft","35,000ft"
+Do not deploy the speedbrakes in flight at radio altitudes less than ,"1,000ft.",800ft,"1,200ft",600ft
+Use of QNH/QFE,QFE prohibited,QFE only at certain airports,QNH encouraged,QNH unless advised by ATC
+Avoid weather radar operation in,a hangar.,the vicinity of ground crew.,icing conditions.,mountainous terrain.
+Use of aileron trim with the autopilot engaged is,prohibited.,limited to one unit.,"permitted only if OEI,",limited to 2 units.
+Do not engage A/P for TO below,400ft AGL,800ft AGL,158ft AGL,200ft AGL
+Do not operate HF radios,during refuelling,on the ground,if VHF 3 in use,on STBY power
+Do not check HF when,Pax using AFT doors,VHF in use,on STBY power,on the ground
+Holding in icing conditions with flaps deployed,is prohibited.,permitted in light icing.,permitted in light/moderate icing.,permitted with wing anti-ice operative.
