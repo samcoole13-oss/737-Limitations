@@ -29,6 +29,7 @@ if "questions" not in st.session_state:
     st.session_state.total = len(st.session_state.questions)
     st.session_state.feedback = ""
     st.session_state.answered = False
+    st.session_state.shuffled_options = {}  # 🔹 ADD THIS
 
 questions = st.session_state.questions
 idx = st.session_state.index
@@ -42,8 +43,13 @@ if idx < st.session_state.total:
     st.subheader(f"Question {idx+1}/{st.session_state.total}")
     st.write(question)
 
-    shuffled = options[:]
-    random.shuffle(shuffled)
+    # 🔹 SHUFFLE OPTIONS ONCE PER QUESTION
+    if idx not in st.session_state.shuffled_options:
+        shuffled = options[:]
+        random.shuffle(shuffled)
+        st.session_state.shuffled_options[idx] = shuffled
+    else:
+        shuffled = st.session_state.shuffled_options[idx]
 
     answer = st.radio(
         "Select your answer:",
@@ -75,5 +81,3 @@ else:
         for key in list(st.session_state.keys()):
             del st.session_state[key]
         st.rerun()
-
-
