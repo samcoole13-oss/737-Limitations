@@ -29,7 +29,7 @@ if "questions" not in st.session_state:
     st.session_state.total = len(st.session_state.questions)
     st.session_state.feedback = ""
     st.session_state.answered = False
-    st.session_state.shuffled_options = {}  # 🔹 ADD THIS
+    st.session_state.shuffled_options = {}
 
 questions = st.session_state.questions
 idx = st.session_state.index
@@ -43,7 +43,7 @@ if idx < st.session_state.total:
     st.subheader(f"Question {idx+1}/{st.session_state.total}")
     st.write(question)
 
-    # 🔹 SHUFFLE OPTIONS ONCE PER QUESTION
+    # Shuffle options ONCE per question
     if idx not in st.session_state.shuffled_options:
         shuffled = options[:]
         random.shuffle(shuffled)
@@ -54,16 +54,20 @@ if idx < st.session_state.total:
     answer = st.radio(
         "Select your answer:",
         shuffled,
+        index=None,            # NO default selection
         key=f"q{idx}"
     )
 
     if st.button("Submit"):
-        st.session_state.answered = True
-        if answer == correct_answer:
-            st.session_state.score += 1
-            st.session_state.feedback = "✔ Correct!"
+        if answer is None:
+            st.warning("Please select an answer before submitting.")
         else:
-            st.session_state.feedback = f"✘ Incorrect. Correct answer: {correct_answer}"
+            st.session_state.answered = True
+            if answer == correct_answer:
+                st.session_state.score += 1
+                st.session_state.feedback = "✔ Correct!"
+            else:
+                st.session_state.feedback = f"✘ Incorrect. Correct answer: {correct_answer}"
 
     if st.session_state.answered:
         st.write(st.session_state.feedback)
