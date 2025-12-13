@@ -65,7 +65,7 @@ if idx < st.session_state.total:
         if st.button("Next question"):
             st.session_state.index += 1
             st.session_state.answered = False
-            st.experimental_rerun()
+            st.rerun()
 
 else:
     st.subheader("Quiz Complete")
@@ -74,4 +74,6 @@ else:
     if st.button("Restart quiz"):
         for key in list(st.session_state.keys()):
             del st.session_state[key]
-        st.experimental_rerun()
+        st.rerun()
+
+
